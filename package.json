@@ -1,0 +1,23 @@
+{
+  "name": "quote-api",
+  "version": "1.0.0",
+  "description": "A small quote-serving JSON API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "babel public -d lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.4"
+  }
+}
