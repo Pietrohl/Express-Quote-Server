@@ -14,6 +14,7 @@ const quotesRouter = require('./quotes.js');
 app.use('/api/quotes/', quotesRouter);
 
 
+//New mongoDB connection method
 mongoose.connect(
     process.env.DB_CONNECTION_STRING, 
     {
