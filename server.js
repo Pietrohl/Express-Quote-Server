@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 4001;
 
 app.use(express.static('public'));
 
-app.use(morgan('tiny'));
+app.use(morgan('dev'));
 
 const quotesRouter = require('./quotes.js');
 app.use('/api/quotes/', quotesRouter);
